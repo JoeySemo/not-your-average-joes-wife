@@ -3,116 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Not Your Average Joe's Wife - Professional Home Services</title>
-    <meta name="description" content="Amanda Knittel provides professional household chores, pet care, and small repairs in Wentzville, O'Fallon, and St. Charles County.">
+    <title>Average Joe's Wife Home Services</title>
+    <meta name="description" content="Average Joe's Wife offers household and pet help for busy families across St. Charles County, handling every honey-do with care.">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="assets/average-joes-wife-logo.svg" as="image" type="image/svg+xml">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__content">
-                <div class="header__brand">
-                    <h1 class="header__title" style="text-align: center; font-size: 3em; font-weight: bold;">Not Your Average Joe's Wife</h1>
-                    <p class="header__tagline">Professional Home Services You Can Trust</p>
-                </div>
-                <div class="header__contact">
-                    <a href="tel:6365550123" class="header__phone">(636) 555-0123</a>
+    <header class="header" id="home">
+        <div class="container header__top">
+            <div class="brand">
+                <img src="assets/average-joes-wife-logo.svg" alt="Average Joe's Wife Home Services logo" class="brand__logo">
+                <div class="brand__copy">
+                    <p class="brand__tagline">Household &amp; Pet Help for Busy Families</p>
                 </div>
             </div>
-            <nav class="nav">
+            <div class="header__contact">
+                <span class="header__cta-label">Call Amanda</span>
+                <a href="tel:6365550123" class="header__phone">(636) 555-0123</a>
+            </div>
+        </div>
+        <nav class="nav" aria-label="Primary">
+            <div class="container">
                 <ul class="nav__list">
                     <li><a href="#home" class="nav__link">Home</a></li>
                     <li><a href="#services" class="nav__link">Services</a></li>
-                    <li><a href="#about" class="nav__link">About Amanda</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
                     <li><a href="#areas" class="nav__link">Service Areas</a></li>
                     <li><a href="#pricing" class="nav__link">Pricing</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
-    
-    <section class="hero" id="home">
-        <div class="container">
-            <h2>Your Trusted Partner for Home Services</h2>
-            <p>From cleaning and organization to pet care and minor repairs, I'm here to help make your life easier.</p>
-            <a href="#contact" class="btn btn--primary">Get Your Free Quote</a>
-        </div>
-    </section>
 
-    <section class="services" id="services">
-        <div class="container">
-            <h2>Services Offered</h2>
-            <div class="services__grid">
-                <div class="service-card">
-                    <h3>Household Chores</h3>
-                    <p>Let me handle your cleaning, laundry, dishes, and general household tasks so you can focus on what matters most.</p>
+    <main>
+        <section class="hero">
+            <div class="container hero__layout">
+                <div class="hero__copy">
+                    <span class="hero__eyebrow">Helping busy families check off the Honey Do’s</span>
+                    <h1 class="hero__title">Tackling Your Honey Do List One Task at a Time</h1>
+                    <p class="hero__subtitle">From deep cleaning and decluttering to pet care and minor repairs, Average Joe's Wife brings a personal touch to professional home services.</p>
+                    <div class="hero__actions">
+                        <a href="#contact" class="btn btn--primary">Request a Free Quote</a>
+                        <a href="#services" class="btn btn--ghost">See Services</a>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Pet Care</h3>
-                    <p>Loving care for your furry friends including feeding, walking, and companionship while you're away.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Small Repairs & Maintenance</h3>
-                    <p>Quick fixes and minor repairs around the house - no job too small!</p>
+                <div class="hero__image">
+                    <img src="assets/average-joes-wife-logo.svg" alt="Photo of Amanda from Average Joe's Wife ready to help with home tasks" class="hero__illustration">
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="about" id="about">
-        <div class="container">
-            <h2>About Amanda</h2>
-            <p>Hi, I'm Amanda Knittel! As a busy wife and homemaker, I understand the challenges of keeping up with household tasks. That's why I started "Not Your Average Joe's Wife" - to help other families in our community maintain a clean, organized, and happy home.</p>
-            <p>With years of experience in home management and a genuine love for helping others, I provide reliable, trustworthy, and personalized service to each client.</p>
-        </div>
-    </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2>Services at a Glance</h2>
+                <p class="section-intro">Tackling your honey do list one task at a time with flexible help you can trust.</p>
+                <div class="services__grid">
+                    <article class="service-card">
+                        <h3>Household Chores</h3>
+                        <p>Whole-home cleaning, laundry, dishes, and organization that keeps your household humming.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Pet Care</h3>
+                        <p>Feeding, walks, litter care, and quality time for the furriest members of your family.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Small Repairs</h3>
+                        <p>Quick fixes, minor maintenance, and honey-do list help handled with care.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-    <section class="areas" id="areas">
-        <div class="container">
-            <h2>Service Areas</h2>
-            <p>Proudly serving:</p>
-            <ul>
-                <li>Wentzville, MO</li>
-                <li>O'Fallon, MO</li>
-                <li>St. Peters, MO</li>
-                <li>Lake St. Louis, MO</li>
-                <li>And surrounding St. Charles County areas</li>
-            </ul>
-        </div>
-    </section>
+        <section class="about" id="about">
+            <div class="container about__layout">
+                <div class="about__text">
+                    <h2>Meet Amanda</h2>
+                    <p>Amanda Knittel is the heart behind Average Joe's Wife. As a lifelong organizer, caretaker, and problem solver, she knows that the little details around a home make the biggest difference.</p>
+                    <p>Clients appreciate her dependable communication, respectful presence, and passion for leaving spaces sparkling. Whether you're balancing family life, work, or travel, Amanda is ready to be your go-to helper.</p>
+                </div>
+                <div class="about__highlight">
+                    <h3>Why neighbors choose Amanda</h3>
+                    <ul>
+                        <li>Insured and background checked</li>
+                        <li>Flexible scheduling tailored to your routines</li>
+                        <li>Local references upon request</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2>Pricing</h2>
-            <p>Every home and family is unique, which is why I offer flexible pricing based on your specific needs.</p>
-            <div class="pricing__info">
-                <h3>Starting Rates:</h3>
-                <ul>
-                    <li>General Cleaning: $30/hour</li>
-                    <li>Pet Care: $25/visit</li>
-                    <li>Small Repairs: Quote-based</li>
+        <section class="areas" id="areas">
+            <div class="container">
+                <h2>Serving St. Charles County</h2>
+                <p>Available for recurring or one-time visits in:</p>
+                <ul class="areas__list">
+                    <li>Wentzville, MO</li>
+                    <li>O'Fallon, MO</li>
+                    <li>Lake St. Louis, MO</li>
+                    <li>St. Peters, MO</li>
+                    <li>Surrounding St. Charles County communities</li>
                 </ul>
-                <p><strong>Contact me today for a free, personalized quote!</strong></p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="contact" id="contact">
-        <div class="container">
-            <h2>Get In Touch</h2>
-            <p>Ready to make your life easier? Contact me today to discuss your needs and get a free quote!</p>
-            <div class="contact__info">
-                <p><strong>Phone:</strong> <a href="tel:6365550123">(636) 555-0123</a></p>
-                <p><strong>Email:</strong> <a href="mailto:amanda@notyouraveragejoeswife.com">amanda@notyouraveragejoeswife.com</a></p>
+        <section class="pricing" id="pricing">
+            <div class="container pricing__layout">
+                <div class="pricing__intro">
+                    <h2>Transparent pricing that fits your needs</h2>
+                    <p>Every family and space is unique. Share a bit about your goals and Amanda will craft a custom plan that respects your time and budget.</p>
+                </div>
+                <div class="pricing__details">
+                    <h3>Typical rates</h3>
+                    <ul>
+                        <li><strong>General Cleaning:</strong> Starting at $30/hour</li>
+                        <li><strong>Pet Care Visits:</strong> From $25 per visit</li>
+                        <li><strong>Small Repairs:</strong> Quote-based after a quick chat</li>
+                    </ul>
+                    <p class="pricing__note">Bundle services to save and enjoy consistent help you can count on.</p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container contact__layout">
+                <div class="contact__card">
+                    <h2>Let's plan your next visit</h2>
+                    <p>Reach out by phone or email to start a conversation. Amanda will respond within one business day.</p>
+                    <div class="contact__info">
+                        <p><strong>Phone:</strong> <a href="tel:6365550123">(636) 555-0123</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:amanda@notyouraveragejoeswife.com">amanda@notyouraveragejoeswife.com</a></p>
+                    </div>
+                </div>
+                <div class="contact__cta">
+                    <p class="contact__cta-text">Prefer text updates? Mention it when you reach out and Amanda will keep you in the loop your way.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Not Your Average Joe's Wife. All rights reserved.</p>
-            <p>Serving Wentzville, O'Fallon, and St. Charles County, Missouri</p>
+        <div class="container footer__layout">
+            <p>&copy; 2025 Average Joe's Wife Home Services. All rights reserved.</p>
+            <p>Serving families across St. Charles County, Missouri.</p>
         </div>
     </footer>
 

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360" height="420" viewBox="0 0 360 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Average Joe's Wife Home Services illustration</title>
+  <desc id="desc">Stylized portrait of Amanda with a spray bottle, broom, and a cat emblem framed in a teal oval.</desc>
+  <defs>
+    <linearGradient id="bgGradient" x1="50" y1="20" x2="310" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5ED1B5"/>
+      <stop offset="1" stop-color="#8B44D6"/>
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="120" y1="80" x2="230" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5414C8"/>
+      <stop offset="1" stop-color="#8D2DD5"/>
+    </linearGradient>
+    <linearGradient id="broomGradient" x1="36" y1="150" x2="64" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F4AE4C"/>
+      <stop offset="1" stop-color="#D17826"/>
+    </linearGradient>
+    <linearGradient id="sprayGradient" x1="250" y1="170" x2="270" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7EDCC6"/>
+      <stop offset="1" stop-color="#3EAE87"/>
+    </linearGradient>
+    <clipPath id="ovalClip">
+      <ellipse cx="180" cy="210" rx="165" ry="198"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ovalClip)">
+    <ellipse cx="180" cy="210" rx="165" ry="198" fill="#E5FFF5" stroke="#57CFA3" stroke-width="12"/>
+    <path d="M120 80C100 100 90 135 90 190C90 255 130 310 180 310C230 310 270 255 270 190C270 135 250 95 225 80C205 68 165 58 120 80Z" fill="url(#hairGradient)"/>
+    <path d="M138 168C138 132 160 112 182 112C204 112 226 132 226 168C226 204 210 232 182 232C154 232 138 204 138 168Z" fill="#F9D3BC"/>
+    <path d="M182 120C195 120 208 126 214 140C199 150 183 154 166 144C166 132 172 120 182 120Z" fill="#F4C1A6"/>
+    <path d="M158 170C158 163 164 158 172 158C180 158 186 163 186 170H158Z" fill="#EAAE94"/>
+    <path d="M190 170C190 163 196 158 204 158C212 158 218 163 218 170H190Z" fill="#EAAE94"/>
+    <path d="M165 186C173 194 191 194 199 186" stroke="#70319F" stroke-width="6" stroke-linecap="round"/>
+    <path d="M140 170C140 210 154 244 182 244C210 244 224 210 224 170" stroke="#5414C8" stroke-width="8" stroke-linecap="round"/>
+    <path d="M126 224C112 245 108 272 108 308C108 336 120 360 180 360C240 360 252 336 252 308C252 272 246 244 232 224L126 224Z" fill="#FFFFFF"/>
+    <path d="M107 245L72 122L56 124L90 272C92 284 104 292 116 288C128 284 136 272 133 260L107 245Z" fill="url(#broomGradient)"/>
+    <path d="M88 134C88 130 92 126 98 124L120 118C126 116 132 119 134 124C136 129 132 134 126 136L98 144C92 146 88 142 88 138V134Z" fill="#FAD77A"/>
+    <path d="M246 176L284 168L288 184L268 188L274 212C278 228 268 244 252 248C240 251 230 246 226 236L208 182L246 176Z" fill="url(#sprayGradient)"/>
+    <path d="M188 248C164 248 146 266 146 288V314H220V288C220 266 202 248 188 248Z" fill="#27144D"/>
+    <path d="M204 284C204 274 196 266 188 266C180 266 172 274 172 284C172 294 180 302 188 302C196 302 204 294 204 284Z" fill="#423773"/>
+    <path d="M182 270C166 270 154 284 154 300C154 316 166 330 182 330C198 330 210 316 210 300C210 284 198 270 182 270Z" fill="#1F143A"/>
+    <path d="M164 292L150 328C148 334 150 342 156 346C162 350 170 348 174 342L188 314L164 292Z" fill="#5C49A6"/>
+    <path d="M200 292L214 328C216 334 214 342 208 346C202 350 194 348 190 342L176 314L200 292Z" fill="#5C49A6"/>
+    <path d="M136 320C120 328 112 342 112 360H248C248 342 240 328 224 320C208 312 160 312 136 320Z" fill="#57CFA3" opacity="0.75"/>
+    <circle cx="182" cy="186" r="4" fill="#34195E"/>
+    <circle cx="206" cy="186" r="4" fill="#34195E"/>
+  </g>
+  <ellipse cx="180" cy="210" rx="165" ry="198" fill="none" stroke="url(#bgGradient)" stroke-width="10"/>
+  <g transform="translate(32 344)">
+    <text x="0" y="32" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="800" font-size="46" fill="#34195E">AVERAGE</text>
+    <text x="0" y="84" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="800" font-size="60" fill="#34195E">JOE'S</text>
+    <text x="0" y="132" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="800" font-size="54" fill="#34195E">WIFE</text>
+    <text x="182" y="132" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="600" font-size="28" fill="#2AA76B">HOME</text>
+    <text x="182" y="164" font-family="'Montserrat', 'Segoe UI', sans-serif" font-weight="600" font-size="28" fill="#2AA76B">SERVICES</text>
+  </g>
+</svg>
