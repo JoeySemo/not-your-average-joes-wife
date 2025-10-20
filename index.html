@@ -12,50 +12,84 @@
         <div class="container">
             <div class="header__content">
                 <div class="header__brand">
-                    <img src="Screenshot-2025-10-19-at-6.37.24-PM.jpg" alt="Not Your Average Joe's Wife Logo" class="header__logo">
-                    <h1 class="header__title" style="text-align: center; font-size: 3em; font-weight: bold;">Not Your Average Joe's Wife</h1>
-                    <p class="header__tagline">Professional Home Services You Can Trust</p>
+                    <img src="https://drive.google.com/uc?export=view&id=19FEQvmq9JCKNr9BppTxtStcMyGzrBsLl" alt="Not Your Average Joe's Wife Logo" class="header__logo">
+                    <div>
+                        <h1 class="header__title">Not Your Average Joe's Wife</h1>
+                        <p class="header__tagline">Professional Home Services You Can Trust</p>
+                    </div>
                 </div>
                 <div class="header__contact">
-                    <a href="tel:6365550123" class="header__phone">(636) 555-0123</a>
+                    <a href="tel:6365550123" class="header__phone">📞 (636) 555-0123</a>
+                    <a href="mailto:amanda@notyouraveragejoeswife.com" class="header__email">✉️ Contact Me</a>
                 </div>
             </div>
             <nav class="nav">
                 <ul class="nav__list">
                     <li><a href="#home" class="nav__link">Home</a></li>
                     <li><a href="#services" class="nav__link">Services</a></li>
-                    <li><a href="#about" class="nav__link">About Amanda</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
                     <li><a href="#areas" class="nav__link">Service Areas</a></li>
-                    <li><a href="#pricing" class="nav__link">Pricing</a></li>
                     <li><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    
+
     <section class="hero" id="home">
         <div class="container">
-            <h2>Your Trusted Partner for Home Services</h2>
-            <p>From cleaning and organization to pet care and minor repairs, I'm here to help make your life easier.</p>
-            <a href="#contact" class="btn btn--primary">Get Your Free Quote</a>
+            <div class="hero__content">
+                <h2 class="hero__title">Life's Too Short for Endless Chores</h2>
+                <p class="hero__subtitle">Let me handle the housework while you enjoy what matters most</p>
+                <a href="#contact" class="btn btn--primary">Get Started Today</a>
+            </div>
         </div>
     </section>
 
     <section class="services" id="services">
         <div class="container">
-            <h2>Services Offered</h2>
+            <h2 class="section__title">My Services</h2>
             <div class="services__grid">
                 <div class="service-card">
-                    <h3>Household Chores</h3>
-                    <p>Let me handle your cleaning, laundry, dishes, and general household tasks so you can focus on what matters most.</p>
+                    <div class="service-card__icon">🧹</div>
+                    <h3 class="service-card__title">Household Chores</h3>
+                    <p class="service-card__description">Deep cleaning, laundry, organizing, and all those tasks that pile up</p>
                 </div>
                 <div class="service-card">
-                    <h3>Pet Care</h3>
-                    <p>Loving care for your furry friends including feeding, walking, and companionship while you're away.</p>
+                    <div class="service-card__icon">🐾</div>
+                    <h3 class="service-card__title">Pet Care</h3>
+                    <p class="service-card__description">Walking, feeding, playtime, and lots of love for your furry friends</p>
                 </div>
                 <div class="service-card">
-                    <h3>Small Repairs & Maintenance</h3>
-                    <p>Basic home repairs, furniture assembly, and maintenance tasks handled with care.</p>
+                    <div class="service-card__icon">🔧</div>
+                    <h3 class="service-card__title">Small Repairs</h3>
+                    <p class="service-card__description">Minor fixes, furniture assembly, and those little jobs around the house</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">🛒</div>
+                    <h3 class="service-card__title">Errands & More</h3>
+                    <p class="service-card__description">Grocery shopping, dry cleaning pickup, and whatever else you need</p>
+                </div>
+            </div>
+
+            <div class="pricing" id="pricing">
+                <h3 class="pricing__title">Flexible Pricing Options</h3>
+                <div class="pricing__options">
+                    <div class="pricing-card">
+                        <h4 class="pricing-card__title">Hourly Rate</h4>
+                        <div class="pricing-card__price">$25<span>/hour</span></div>
+                        <p class="pricing-card__description">Perfect for ongoing needs and regular service</p>
+                    </div>
+                    <div class="pricing-card pricing-card--featured">
+                        <h4 class="pricing-card__title">À La Carte Services</h4>
+                        <div class="pricing-card__price">Custom</div>
+                        <ul class="pricing-card__list">
+                            <li>Dog walking: $20 per walk</li>
+                            <li>Grocery shopping: $30 + groceries</li>
+                            <li>Deep cleaning: Starting at $100</li>
+                            <li>Other errands: $15-$40</li>
+                        </ul>
+                        <p class="pricing-card__note">Prices vary based on time and complexity</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,44 +97,59 @@
 
     <section class="about" id="about">
         <div class="container">
-            <h2>About Amanda</h2>
-            <p>Hi, I'm Amanda Knittel! As a busy wife and homemaker, I understand the challenges of keeping up with household tasks. That's why I started "Not Your Average Joe's Wife" - to help other families in our community maintain a clean, organized, and happy home.</p>
-            <p>With years of experience in home management and a genuine love for helping others, I provide reliable, trustworthy, and personalized service to each client.</p>
+            <h2 class="section__title">About Amanda</h2>
+            <div class="about__content">
+                <div class="about__text">
+                    <p>Hi! I'm Amanda Knittel, and I'm here to make your life easier. As a busy wife myself, I understand how overwhelming household responsibilities can be. That's why I started this service - to help families in our community reclaim their time and reduce their stress.</p>
+                    <p>I take pride in providing reliable, trustworthy service with a personal touch. Your home and pets will be treated with the same care and respect I give my own. I'm fully insured and have years of experience in home management and pet care.</p>
+                    <p>Let me handle the to-do list so you can focus on what really matters - spending quality time with your loved ones!</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="areas" id="areas">
         <div class="container">
-            <h2>Service Areas</h2>
-            <p>Proudly serving:</p>
-            <ul>
-                <li>Wentzville, MO</li>
-                <li>O'Fallon, MO</li>
-                <li>St. Charles County</li>
-                <li>And surrounding areas</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="pricing" id="pricing">
-        <div class="container">
-            <h2>Pricing</h2>
-            <p>Competitive rates based on your specific needs. Contact me for a free, no-obligation quote!</p>
+            <h2 class="section__title">Service Areas</h2>
+            <p class="areas__subtitle">Proudly serving the greater St. Louis region, including:</p>
+            <div class="areas__grid">
+                <div class="area-card">📍 Wentzville</div>
+                <div class="area-card">📍 O'Fallon</div>
+                <div class="area-card">📍 Lake St. Louis</div>
+                <div class="area-card">📍 St. Peters</div>
+                <div class="area-card">📍 St. Charles</div>
+                <div class="area-card">📍 Dardenne Prairie</div>
+            </div>
+            <p class="areas__note">Don't see your area? <a href="#contact">Contact me</a> - I may still be able to help!</p>
         </div>
     </section>
 
     <section class="contact" id="contact">
         <div class="container">
-            <h2>Get In Touch</h2>
-            <p>Ready to make your life easier? Contact me today!</p>
-            <p><strong>Phone:</strong> <a href="tel:6365550123">(636) 555-0123</a></p>
-            <p><strong>Email:</strong> <a href="mailto:amanda@notyouraveragejoeswife.com">amanda@notyouraveragejoeswife.com</a></p>
+            <h2 class="section__title">Get In Touch</h2>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <h3>Ready to reclaim your time?</h3>
+                    <p>Contact me today for a free consultation! I'll discuss your needs and create a customized service plan that works for you.</p>
+                    <div class="contact__methods">
+                        <a href="tel:6365550123" class="contact__method">
+                            <span class="contact__icon">📞</span>
+                            <span>(636) 555-0123</span>
+                        </a>
+                        <a href="mailto:amanda@notyouraveragejoeswife.com" class="contact__method">
+                            <span class="contact__icon">✉️</span>
+                            <span>amanda@notyouraveragejoeswife.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 Not Your Average Joe's Wife. All rights reserved.</p>
+            <p>&copy; 2025 Not Your Average Joe's Wife. All rights reserved.</p>
+            <p>Serving Wentzville, O'Fallon, and St. Charles County with pride.</p>
         </div>
     </footer>
 
