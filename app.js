@@ -1,52 +1,33 @@
-// Not Your Average Joe's Wife - JavaScript functionality
+// Average Joe's Wife Home Services - JS
+// Smooth scroll and minor UX polish (no frameworks)
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling for navigation links
-    initSmoothScrolling();
-    
-    // Contact form handling (optional - can be expanded for validation later)
+document.addEventListener('DOMContentLoaded', () => {
+  initSmoothScroll();
+  enhanceInPageLinks();
 });
 
-/**
- * Initialize smooth scrolling for navigation links
- */
-function initSmoothScrolling() {
-    const navLinks = document.querySelectorAll('.nav__link');
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            
-            if (targetSection) {
-                const headerHeight = document.querySelector('.header').offsetHeight;
-                const targetPosition = targetSection.offsetTop - headerHeight - 20;
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
+function initSmoothScroll() {
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach(link => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href');
+      if (!href || href === '#') return;
+      const target = document.querySelector(href);
+      if (!target) return;
+      e.preventDefault();
+      const header = document.querySelector('.site-header');
+      const offset = header ? header.offsetHeight + 12 : 0;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+      history.pushState(null, '', href);
     });
-    
-    // Also handle hero section buttons
-    const heroButtons = document.querySelectorAll('.hero__actions a[href^="#"]');
-    heroButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            
-            if (targetSection) {
-                const headerHeight = document.querySelector('.header').offsetHeight;
-                const targetPosition = targetSection.offsetTop - headerHeight - 20;
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
+  });
+}
+
+function enhanceInPageLinks() {
+  // Add focus ring target for accessibility after smooth scroll
+  const ids = Array.from(document.querySelectorAll('[id]'));
+  ids.forEach(el => {
+    el.setAttribute('tabindex', '-1');
+  });
 }
